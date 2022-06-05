@@ -21,7 +21,7 @@ section.navbar {
 .logo {
     font-family: 'Cedarville Cursive', cursive;
     font-size: 48px;
-    color: #e73e4b;
+    color: burlywood;
 }
 
 ul.nav {
@@ -34,7 +34,7 @@ ul.nav {
 button.cvdownload {
     padding: 20px 35px 20px 35px;
     color: #fff;
-    background: #e73e4b;
+    background: burlywood;
     border: transparent;
     border-radius: 7px;
     font-weight: bold;
@@ -60,13 +60,73 @@ a.imalink {
     bottom: 0;
     width: 0;
     height: 2px;
-    background-color: #e73e4b;
+    background-color: burlywood;
     transition: width 0.40s ease-out;
 }
 .imalink:hover::before {
     width: 100%;
 }
 
+.header {
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+}
 
+.headerimage img {
+    max-width: 400px;
+}
+.headertext {
+    font-family: 'Poppins';
+}
+.headertext h1 {
+    font-size: 64px;
+}
+button.contactme {
+    padding: 10px 45px 10px 45px;
+    background: transparent;
+    border: solid 2px;
+    color: burlywood;
+    font-weight: bold;
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+.button2 {
+    padding-top: 50px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.fa-instagram:hover {
+    color: burlywood;
+    transition-duration: 1s;
+}
+.fa-twitter:hover {
+    color: burlywood;
+    transition-duration: 1s;
+}
+.fa-github:hover {
+    color: burlywood;
+    transition-duration: 1s;
+}
+.fa-linkedin:hover {
+    color: burlywood;
+    transition-duration: 1s;
+}
+
+.headertext h1 span {
+    color: burlywood;
+}
+p.details {
+    font-size: 18px;
+    color: #ccc;
+    font-weight: bold;
+}
 
 
