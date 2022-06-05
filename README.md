@@ -14,7 +14,7 @@
  - [Licence](#licence)
  - [Authors Info](#authors-info)
  ## Description
- <p>This project is a portfolio Page and a webpage for mr, Yahya Hussein. that shows information about the services i offers, has details about the myself, a contactbox  section which enables users to communicate with me(not yet functional) , it also has an area, where users can observe the projects i have engaged in</p>
+ <p>This project is a portfolio Page and a webpage for me, Yahya Hussein. that shows information about the services i offers, has details about the myself, a contactbox  section which enables users to communicate with me(not yet functional) , it also has an area, where users can observe the projects i have engaged in</p>
 [Go Back to the top](#My-Portfolio)
 
 ## Features
