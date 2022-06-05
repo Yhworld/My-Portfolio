@@ -129,4 +129,56 @@ p.details {
     font-weight: bold;
 }
 
+section.about {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+    color: #fff;
+}
+
+.aboutheader {
+    text-align: center;
+    color: #fff;
+    padding-top: 300px;
+    font-size: 40px;
+    font-family: 'Poppins';
+}
+
+.description {
+    line-height: 1.9;
+    font-size: 20px;
+    color: #ccc;
+    font-family: 'Poppins';
+}
+
+hr.horizon {
+    transform: rotate(90deg);
+    width: 219px;
+    height: 4px;
+    background: burlywood;
+    border: transparent;
+}
+
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: burlywood;
+}
+
+.aboutimage {
+    padding-right: 380px;
+}
+
+.history {
+    padding-top: 80px;
+}
+
+.abouticons {
+    display: flex;
+    padding-top: 40px;
+    gap: 20px;
+}
+
+
 
