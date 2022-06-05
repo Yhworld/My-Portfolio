@@ -180,5 +180,73 @@ hr.horizon {
     gap: 20px;
 }
 
+.portfolio img {
+    max-width: 600px;
+    border-radius: 7px;
+}
+
+.portfolio2 img {
+    max-width: 600px;
+    border-radius: 7px;
+}
+
+section.portfolio {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+section.portfolio2 {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.portfolioheader h2 {
+    color: #fff;
+    padding-top: 108px;
+    text-align: center;
+    position: relative;
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: lighter;
+}
+section.mainportfolio {
+    height: 600px;
+    padding-top: 132px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(220, 155, 70);
+  font-size: 36px;
+  font-family: 'Poppins';
+  font-weight: bolder;
+}
+.projectimage {
+    position: relative;
+    text-align: center;
+}
+
+.mainportfolio img {
+    filter: blur(1px);
+    -webkit-filter: blur(3.5px);
+    cursor: pointer;
+}
+
+.projectimage:hover {
+    font-size: 48px;
+}
+.projectimage img:hover {
+    height: 400px;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
+
 
 
